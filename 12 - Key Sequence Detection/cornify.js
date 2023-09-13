@@ -352,7 +352,7 @@ var cornami = {
         clearTimeout(cornami.clear);
         return;
       } else {
-        cornami.input += event.keyCode;
+        cornami.input += event.code;
         if (cornami.input == cornami.pattern) {
           cornify_add();
         }
